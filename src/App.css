@@ -1,64 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
+  margin-left: 5px;
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #587074a9;
     color: white;
   }
   
   .navbar {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 98%;
     z-index: 1;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgb(15, 15, 15);
     padding: 20px;
+    
   }
   
   .navbar a {
     text-decoration: none;
+    color: black;
+    font-size: larger;
   }
   
-  .page {
-    margin-top: 80px;
+  .p {
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 25px;
   }
   
   .container {
     padding: 5px;
-    border: 1px solid white;
-    border-radius: 10px;
+    border: 5px solid #95f592;
+    /* border-radius: 10px; */
     max-width: 200px;
     margin-bottom: 20px;
   }
   
   .container:hover {
-    box-shadow: 0px 0px 10px white;
+    
+    border: 5px solid rgb(57, 146, 219);
   }
   
   .container a div {
-    margin-top: 8px;
+    margin-top: 10px;
   }
   
   .container a {
     text-decoration: none;
   }
   
-  .post {
-    margin-top: 80px;
+  .pp {
+    margin-top: 70px;
     display: flex;
-    padding: 10px;
+    padding: 20px;
     flex-direction: column;
+    background-color: #587074a9;
+    height: 100vh;
   }
   
-  .post div {
+  .pp div {
     margin-top: 10px;
+    background-color: #587074a9;
   }
-  
+
+  /* .back{
+    background-color: #95f592;
+  } */
   
