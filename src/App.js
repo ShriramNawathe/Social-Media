@@ -22,7 +22,7 @@ function Home() {
 
   return (
     <div>
-      <div className="page">
+      <div className="p">
         {posts.map((post) => (
           <div className="container" key={post.id}>
             <Link to={`/item/${post.id}`}>
@@ -70,7 +70,7 @@ function Detail() {
   // console.log("post>>",post);
 
   return (
-    <div className="post">
+    <div className="pp">
       <div>Details Page For Post With ID: {post.id}</div>
       <div>
         <img
